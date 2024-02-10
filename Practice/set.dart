@@ -13,6 +13,7 @@ void main(){
   print(name.isEmpty);//true if set is empty.
   print(name.isNotEmpty);//true if set is not empty.
   // print(name.single);//!if there has only one element
+  print(name.hashCode);//return a hash code.
   name.remove("Akash");
   print(name);
 
