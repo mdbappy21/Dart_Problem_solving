@@ -3,7 +3,7 @@ import 'dart:io';
 void main() {
   double result = 0.0;
   List<List<double>> array = List.generate(12, (_) => List.filled(12, 0.0));
-  //var , C, x, y, z, p = 0;
+  
   String T;
 
   T = stdin.readLineSync()!;
