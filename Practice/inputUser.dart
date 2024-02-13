@@ -7,7 +7,7 @@ void main() {
   print("Your name is :$name"); //$ use for printing variable.
 
   print("Enter two name that seperated by space");
-  List<String> inputs =stdin.readLineSync().split(' '); //two input seperated by Space
+  List<String> inputs =stdin.readLineSync()!.split(' '); //two input seperated by Space
   String Sheldon = inputs[0];
   String Raj = inputs[1];
   print("Sheldon :$Sheldon    Raj: $Raj");
