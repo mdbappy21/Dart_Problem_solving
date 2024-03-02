@@ -1,7 +1,9 @@
 import 'dart:io';
 
 void main() {
+  stdout.write("Enter the number in decimal : ");
   int number=int.parse(stdin.readLineSync()!);
-  String hexString = number.toRadixString(16).toUpperCase(); //place 2,8,10,16 to RadixString function 
+  stdout.write("Enter the base to convert : ");
+  String hexString = number.toRadixString(int.parse(stdin.readLineSync()!)).toUpperCase(); //place 2,8,10,16 to RadixString function 
   print(hexString);
 }
